@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		434F9E2C1C9E2C7300372ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F9E2B1C9E2C7300372ACE /* AppDelegate.swift */; };
-		434F9E2E1C9E2C7300372ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F9E2D1C9E2C7300372ACE /* ViewController.swift */; };
 		434F9E311C9E2C7300372ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434F9E2F1C9E2C7300372ACE /* Main.storyboard */; };
 		434F9E331C9E2C7300372ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434F9E321C9E2C7300372ACE /* Assets.xcassets */; };
 		434F9E361C9E2C7300372ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434F9E341C9E2C7300372ACE /* LaunchScreen.storyboard */; };
+		434F9E3F1C9E2E3000372ACE /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F9E3E1C9E2E3000372ACE /* mainController.swift */; };
+		434F9E411C9E31CF00372ACE /* mainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434F9E401C9E31CF00372ACE /* mainCell.xib */; };
+		434F9E441C9E32C400372ACE /* ssh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434F9E431C9E32C400372ACE /* ssh.storyboard */; };
+		434F9E461C9E39D100372ACE /* sshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F9E451C9E39D100372ACE /* sshController.swift */; };
+		434F9E4F1C9E3DF800372ACE /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 434F9E4E1C9E3DF800372ACE /* SimplePing.m */; };
+		43AD82D91D07BDAF002A27DF /* Coordinates.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AD82D81D07BDAF002A27DF /* Coordinates.storyboard */; };
+		43AD82DB1D07BE34002A27DF /* CoordinatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AD82DA1D07BE34002A27DF /* CoordinatesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		434F9E281C9E2C7300372ACE /* testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434F9E2B1C9E2C7300372ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		434F9E2D1C9E2C7300372ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		434F9E301C9E2C7300372ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		434F9E321C9E2C7300372ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434F9E351C9E2C7300372ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434F9E371C9E2C7300372ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434F9E3E1C9E2E3000372ACE /* mainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainController.swift; sourceTree = "<group>"; };
+		434F9E401C9E31CF00372ACE /* mainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainCell.xib; sourceTree = "<group>"; };
+		434F9E431C9E32C400372ACE /* ssh.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ssh.storyboard; sourceTree = "<group>"; };
+		434F9E451C9E39D100372ACE /* sshController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sshController.swift; sourceTree = "<group>"; };
+		434F9E4C1C9E3DF700372ACE /* testing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testing-Bridging-Header.h"; sourceTree = "<group>"; };
+		434F9E4D1C9E3DF800372ACE /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		434F9E4E1C9E3DF800372ACE /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		43AD82D81D07BDAF002A27DF /* Coordinates.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Coordinates.storyboard; sourceTree = "<group>"; };
+		43AD82DA1D07BE34002A27DF /* CoordinatesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,62 @@
 		434F9E2A1C9E2C7300372ACE /* testing */ = {
 			isa = PBXGroup;
 			children = (
-				434F9E2B1C9E2C7300372ACE /* AppDelegate.swift */,
-				434F9E2D1C9E2C7300372ACE /* ViewController.swift */,
+				43AD82D71D07BD7F002A27DF /* Coordinates */,
+				434F9E401C9E31CF00372ACE /* mainCell.xib */,
 				434F9E2F1C9E2C7300372ACE /* Main.storyboard */,
-				434F9E321C9E2C7300372ACE /* Assets.xcassets */,
-				434F9E341C9E2C7300372ACE /* LaunchScreen.storyboard */,
-				434F9E371C9E2C7300372ACE /* Info.plist */,
+				434F9E3E1C9E2E3000372ACE /* mainController.swift */,
+				434F9E421C9E32AB00372ACE /* ssh */,
+				434F9E3D1C9E2E0300372ACE /* Supporting files */,
+				434F9E471C9E3D1800372ACE /* External */,
 			);
 			path = testing;
+			sourceTree = "<group>";
+		};
+		434F9E3D1C9E2E0300372ACE /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				434F9E2B1C9E2C7300372ACE /* AppDelegate.swift */,
+				434F9E371C9E2C7300372ACE /* Info.plist */,
+				434F9E321C9E2C7300372ACE /* Assets.xcassets */,
+				434F9E341C9E2C7300372ACE /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		434F9E421C9E32AB00372ACE /* ssh */ = {
+			isa = PBXGroup;
+			children = (
+				434F9E431C9E32C400372ACE /* ssh.storyboard */,
+				434F9E451C9E39D100372ACE /* sshController.swift */,
+			);
+			name = ssh;
+			sourceTree = "<group>";
+		};
+		434F9E471C9E3D1800372ACE /* External */ = {
+			isa = PBXGroup;
+			children = (
+				434F9E4B1C9E3D4300372ACE /* Simple ping */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		434F9E4B1C9E3D4300372ACE /* Simple ping */ = {
+			isa = PBXGroup;
+			children = (
+				434F9E4D1C9E3DF800372ACE /* SimplePing.h */,
+				434F9E4E1C9E3DF800372ACE /* SimplePing.m */,
+				434F9E4C1C9E3DF700372ACE /* testing-Bridging-Header.h */,
+			);
+			name = "Simple ping";
+			sourceTree = "<group>";
+		};
+		43AD82D71D07BD7F002A27DF /* Coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				43AD82D81D07BDAF002A27DF /* Coordinates.storyboard */,
+				43AD82DA1D07BE34002A27DF /* CoordinatesController.swift */,
+			);
+			name = Coordinates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +187,10 @@
 			files = (
 				434F9E361C9E2C7300372ACE /* LaunchScreen.storyboard in Resources */,
 				434F9E331C9E2C7300372ACE /* Assets.xcassets in Resources */,
+				43AD82D91D07BDAF002A27DF /* Coordinates.storyboard in Resources */,
+				434F9E411C9E31CF00372ACE /* mainCell.xib in Resources */,
 				434F9E311C9E2C7300372ACE /* Main.storyboard in Resources */,
+				434F9E441C9E32C400372ACE /* ssh.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434F9E2E1C9E2C7300372ACE /* ViewController.swift in Sources */,
+				434F9E461C9E39D100372ACE /* sshController.swift in Sources */,
+				434F9E3F1C9E2E3000372ACE /* mainController.swift in Sources */,
 				434F9E2C1C9E2C7300372ACE /* AppDelegate.swift in Sources */,
+				434F9E4F1C9E3DF800372ACE /* SimplePing.m in Sources */,
+				43AD82DB1D07BE34002A27DF /* CoordinatesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqr.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testing/testing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -261,10 +332,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqr.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testing/testing-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +360,7 @@
 				434F9E3C1C9E2C7300372ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
